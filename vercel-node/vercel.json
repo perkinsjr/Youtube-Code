@@ -1,16 +1,16 @@
 {
-    "routes": [
+  "env": {
+    "MONGODB_URI": "@mongodb-ur"
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
         {
-            "src": "/",
-            "dest": "/api/users.js"
-        },
-        {
-            "src": "/users",
-            "methods": [
-                "POST",
-                "GET"
-            ],
-            "dest": "/api/users.js"
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
         }
-    ]
+      ]
+    }
+  ]
 }

@@ -1,16 +1,15 @@
 {
-  "name": "vercel-node",
+  "name": "mongo-serverless",
   "version": "1.0.0",
-  "description": "",
+  "description": "Mongo + Serverless + Vercel",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "James Perkins",
+  "license": "MIT",
   "devDependencies": {
-    "@vercel/node": "^1.7.1"
+    "@vercel/node": "^1.7.2"
   },
   "dependencies": {
     "mongodb": "^3.5.9"
